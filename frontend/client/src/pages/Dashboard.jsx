@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-const FRONTEND_URL = "http://localhost:5000";
+const FRONTEND_URL = "https://w3vila-assignment.onrender.com";
 
 const Dashboard = () => {
   const [polls, setPolls] = useState([]);
