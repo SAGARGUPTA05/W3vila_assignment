@@ -12,7 +12,7 @@ const Poll = () => {
 
   const fetchPoll = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/polls/result/${id}`, {
+      const res = await axios.get(`https://w3vila-assignment.onrender.com/api/polls/result/${id}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
@@ -35,7 +35,7 @@ const Poll = () => {
 
     try {
       await axios.post(
-        `http://localhost:5000/api/polls/vote/${id}`,
+        `https://w3vila-assignment.onrender.com/api/polls/vote/${id}`,
         { option: selectedOption },
         {
           headers: {
