@@ -3,7 +3,7 @@ import axios from "axios";
 import Card from "../components/Card";
 import { Navigate } from "react-router-dom";
 
-const FRONTEND_URL = "http://localhost:5000";
+const FRONTEND_URL = "https://w3vila-assignment.onrender.com";
 
 const Home = () => {
   const [polls, setPolls] = useState([]);
