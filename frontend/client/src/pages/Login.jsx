@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-const FRONTEND_URL = "http://localhost:5000";
+const FRONTEND_URL = "https://w3vila-assignment.onrender.com";
 const Login = () => {
   const navigate = useNavigate();
   const [form, setForm] = useState({ email: "", password: "" });
