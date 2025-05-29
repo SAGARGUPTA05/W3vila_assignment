@@ -8,7 +8,7 @@ A role-based Poll and Voting App where admins can create polls and users can vot
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/SAGARGUPTA)%/W3vila_assignment.git
+git clone https://github.com/SAGARGUPTA05/W3vila_assignment.git
 cd W3vila_assignment
 Backend Setup
 cd backend
